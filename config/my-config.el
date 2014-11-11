@@ -36,4 +36,17 @@
 ; Hide scrollbars
 (set-scroll-bar-mode nil)
 
+; Don't wrap lines; instead stick a marker at 78 columns
+(set-default 'truncate-lines t)
+(setq-default fill-column 78)
+(use-package fill-column-indicator
+  :ensure fill-column-indicator
+  :config (fci-mode))
+
+; Display line numbers
+(linum-mode)
+
+; Highlight current line
+(global-hl-line-mode)
+
 (provide 'my-config)
