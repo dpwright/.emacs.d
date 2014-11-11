@@ -31,7 +31,7 @@
       `((".*" ,temporary-file-directory t)))
 
 ; Don't blink the cursor
-(blink-cursor-mode nil)
+(blink-cursor-mode 0)
 
 ; Hide scrollbars
 (set-scroll-bar-mode nil)
