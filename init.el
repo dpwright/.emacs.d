@@ -1,4 +1,5 @@
 (add-to-list 'load-path (concat user-emacs-directory "config"))
+(add-to-list 'load-path (concat user-emacs-directory "config/" "pl"))
 (setq package-archives '(("melpa" . "http://melpa.milkbox.net/packages/")
                          ("org" . "http://orgmode.org/elpa")
                          ("gnu" . "http://elpa.gnu.org/packages/")))
@@ -18,6 +19,8 @@
 (require 'my-ibuffer)
 (require 'my-dired)
 (require 'my-magit)
+
+(require 'my-fsharp)
 
 ; This needs to be the last package imported, to override previously-defined keybindings
 (require 'my-evil)
