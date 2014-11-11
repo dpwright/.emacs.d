@@ -15,6 +15,7 @@
             "k" 'magit-goto-previous-section)
         (evil-define-key 'normal magit-diff-mode-map
             "j" 'magit-goto-next-section
-            "k" 'magit-goto-previous-section))))
+            "k" 'magit-goto-previous-section
+            "s" 'magit-stage-item))))
 
 (provide 'my-magit)
