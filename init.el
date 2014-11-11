@@ -13,6 +13,7 @@
 
 (require 'my-util)
 (require 'my-config)
+(require 'my-colours)
 
 (require 'my-ibuffer)
 (require 'my-dired)
