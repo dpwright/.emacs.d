@@ -30,4 +30,10 @@
 (setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
 
+; Don't blink the cursor
+(blink-cursor-mode nil)
+
+; Hide scrollbars
+(set-scroll-bar-mode nil)
+
 (provide 'my-config)
