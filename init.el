@@ -20,6 +20,7 @@
 (require 'my-dired)
 (require 'my-magit)
 
+(require 'my-c-cpp)
 (require 'my-fsharp)
 
 ; This needs to be the last package imported, to override previously-defined keybindings
