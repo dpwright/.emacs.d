@@ -17,6 +17,7 @@
 (require 'my-config)
 (require 'my-colours)
 
+(require 'my-elscreen)
 (require 'my-ibuffer)
 (require 'my-dired)
 (require 'my-magit)
