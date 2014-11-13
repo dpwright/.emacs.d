@@ -57,4 +57,10 @@
 ; Highlight current line
 (global-hl-line-mode)
 
+; Show whitespace
+(require 'whitespace)
+(global-whitespace-mode 1)
+(setq whitespace-style
+  '(tab-mark space-before-tab newline))
+
 (provide 'my-config)
