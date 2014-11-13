@@ -21,6 +21,7 @@
 (require 'my-magit)
 
 (require 'my-c-cpp)
+(require 'my-pawn)
 (require 'my-fsharp)
 
 ; This needs to be the last package imported, to override previously-defined keybindings
