@@ -3,11 +3,15 @@
 (setq mac-command-modifier 'meta)
 
 ; elisp-slime navigation in eldocs
-(require 'elisp-slime-nav)
 (defun my-lisp-hook ()
   (elisp-slime-nav-mode)
   (turn-on-eldoc-mode))
-(add-hook 'emacs-lisp-mode-hook 'my-lisp-hook)
+
+(use-package elisp-slime-nav
+  :ensure elisp-slime-nav
+  :config
+    (progn
+      (add-hook 'emacs-lisp-mode-hook 'my-lisp-hook)))
 
 ; Hide startup messages
 (setq inhibit-splash-screen t
