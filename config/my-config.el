@@ -52,7 +52,7 @@
   :config (fci-mode))
 
 ; Display line numbers
-(linum-mode)
+(global-linum-mode 1)
 
 ; Highlight current line
 (global-hl-line-mode)
