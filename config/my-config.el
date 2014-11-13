@@ -28,12 +28,15 @@
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 
-; place all auto-saves and backup files in the system's
+; Place all auto-saves and backup files in the system's
 ; temporary directory
 (setq backup-directory-alist
       `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
+
+; Live dangerously
+(setq make-backup-files nil)
 
 ; Don't blink the cursor
 (blink-cursor-mode 0)
