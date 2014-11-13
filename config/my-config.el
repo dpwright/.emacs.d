@@ -93,4 +93,7 @@
 (disallow-cd-in-function find-file-noselect-1)
 (disallow-cd-in-function set-visited-file-name)
 
+; Turn off bell
+(setq visible-bell t)
+
 (provide 'my-config)
