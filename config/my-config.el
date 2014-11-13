@@ -71,4 +71,8 @@
   (aset buffer-display-table ?\^M []))
 (add-hook 'text-mode-hook 'remove-dos-eol)
 
+; Make scrolling nicer
+(setq scroll-step           1
+      scroll-conservatively 10000)
+
 (provide 'my-config)
