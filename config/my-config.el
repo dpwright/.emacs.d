@@ -75,4 +75,22 @@
 (setq scroll-step           1
       scroll-conservatively 10000)
 
+; Don't change directories when opening files
+; From: http://stackoverflow.com/questions/2626963/how-to-make-emacs-stay-in-the-current-directory
+(defmacro disallow-cd-in-function (fun)
+  "Prevent FUN (or any function that FUN calls) from changing directory."
+  `(defadvice ,fun (around dissallow-cd activate)
+     (let ((old-dir default-directory) ; Save old directory
+           (new-buf ad-do-it)) ; Capture new buffer
+       ;; If FUN returns a buffer, operate in that buffer in addition
+       ;; to current one.
+       (when (bufferp new-buf)
+         (set-buffer new-buf)
+         (setq default-directory old-dir))
+       ;; Set default-directory in the current buffer
+       (setq default-directory old-dir))))
+
+(disallow-cd-in-function find-file-noselect-1)
+(disallow-cd-in-function set-visited-file-name)
+
 (provide 'my-config)
