@@ -20,8 +20,9 @@
 ; Enforce trailing newlines
 (setq require-final-newline t)
 
-; Hide the toolbar
+; Hide the toolbar and menubar
 (tool-bar-mode -1)
+(menu-bar-mode -1)
 
 ; place all auto-saves and backup files in the system's
 ; temporary directory
