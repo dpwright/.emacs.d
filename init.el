@@ -25,6 +25,7 @@
 (require 'my-c-cpp)
 (require 'my-pawn)
 (require 'my-fsharp)
+(require 'my-protobuf)
 
 ; This needs to be the last package imported, to override previously-defined keybindings
 (require 'my-evil)
