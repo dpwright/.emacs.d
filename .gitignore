@@ -1,3 +1,5 @@
 elpa/
 ac-comphist.dat
 eshell/history
+eshell
+semanticdb
