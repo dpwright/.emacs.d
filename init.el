@@ -30,6 +30,7 @@
 (require 'my-protobuf)
 (require 'my-ruby)
 (require 'my-cmake)
+(require 'my-yaml)
 (require 'my-lua)
 (require 'my-elisp)
 
