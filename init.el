@@ -22,6 +22,7 @@
 (require 'my-ibuffer)
 (require 'my-dired)
 (require 'my-magit)
+(require 'my-org)
 
 (require 'my-haskell)
 (require 'my-c-cpp)
