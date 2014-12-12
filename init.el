@@ -19,6 +19,7 @@
 (require 'my-colours)
 (require 'my-fonts)
 (require 'my-powerline)
+(require 'my-ime)
 
 (require 'my-helm)
 (require 'my-projectile)
