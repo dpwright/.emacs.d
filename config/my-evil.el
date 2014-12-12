@@ -33,4 +33,11 @@
   :init
     (require 'evil-jumper))
 
+(use-package evil-tabs
+  :ensure evil-tabs
+  :init
+    (require 'evil-tabs)
+  :config
+    (evil-tabs-mode))
+
 (provide 'my-evil)
