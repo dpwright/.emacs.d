@@ -23,6 +23,7 @@
 (require 'my-dired)
 (require 'my-magit)
 
+(require 'my-haskell)
 (require 'my-c-cpp)
 (require 'my-pawn)
 (require 'my-fsharp)
