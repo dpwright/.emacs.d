@@ -3,6 +3,8 @@
   :ensure helm
   :config
     (progn
+      (helm-mode 1)
+
       (global-set-key (kbd "C-c h") 'helm-command-prefix)
       (global-unset-key (kbd "C-x c"))
 
@@ -27,6 +29,6 @@
       (global-set-key (kbd "C-x C-f") 'helm-find-files)
       (global-set-key (kbd "C-c h o") 'helm-occur)
 
-      (helm-mode 1)))
+      ))
 
 (provide 'my-helm)
