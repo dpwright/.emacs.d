@@ -31,4 +31,11 @@
 
       ))
 
+(use-package helm-projectile
+  :ensure helm-projectile
+  :config
+    (progn
+      (helm-projectile-on))
+      (setq projectile-completion-system 'helm))
+
 (provide 'my-helm)
