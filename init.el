@@ -13,6 +13,7 @@
   (package-install 'use-package))
 (require 'use-package)
 
+(require 'my-env)
 (require 'my-util)
 (require 'my-config)
 (require 'my-colours)
