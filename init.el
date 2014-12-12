@@ -28,6 +28,7 @@
 (require 'my-dired)
 (require 'my-magit)
 (require 'my-org)
+(require 'my-twittering)
 
 (require 'my-flycheck)
 
