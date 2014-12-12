@@ -27,6 +27,7 @@
 (require 'my-pawn)
 (require 'my-fsharp)
 (require 'my-protobuf)
+(require 'my-ruby)
 (require 'my-cmake)
 (require 'my-elisp)
 
