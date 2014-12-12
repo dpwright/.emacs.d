@@ -51,9 +51,6 @@
   :ensure fill-column-indicator
   :config (fci-mode))
 
-; Display line numbers
-(global-linum-mode 1)
-
 ; Highlight current line
 (global-hl-line-mode)
 
