@@ -29,6 +29,7 @@
 (require 'my-magit)
 (require 'my-org)
 (require 'my-twittering)
+(require 'my-w3m)
 
 (require 'my-flycheck)
 
