@@ -16,6 +16,7 @@
 (require 'my-util)
 (require 'my-config)
 (require 'my-colours)
+(require 'my-fonts)
 
 (require 'my-elscreen)
 (require 'my-projectile)
