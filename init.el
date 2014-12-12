@@ -26,6 +26,7 @@
 (require 'my-pawn)
 (require 'my-fsharp)
 (require 'my-protobuf)
+(require 'my-elisp)
 
 ; This needs to be the last package imported, to override previously-defined keybindings
 (require 'my-evil)
