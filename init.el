@@ -29,6 +29,7 @@
 (require 'my-fsharp)
 (require 'my-protobuf)
 (require 'my-ruby)
+(require 'my-ninja)
 (require 'my-cmake)
 (require 'my-yaml)
 (require 'my-lua)
