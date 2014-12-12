@@ -18,6 +18,7 @@
 (require 'my-colours)
 
 (require 'my-elscreen)
+(require 'my-projectile)
 (require 'my-ibuffer)
 (require 'my-dired)
 (require 'my-magit)
