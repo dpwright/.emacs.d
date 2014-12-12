@@ -21,7 +21,7 @@
 
 (require 'my-helm)
 (require 'my-projectile)
-(require 'my-elscreen)
+;(require 'my-elscreen)
 (require 'my-ibuffer)
 (require 'my-dired)
 (require 'my-magit)
