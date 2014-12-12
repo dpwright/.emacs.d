@@ -24,6 +24,8 @@
 (require 'my-magit)
 (require 'my-org)
 
+(require 'my-flycheck)
+
 (require 'my-haskell)
 (require 'my-c-cpp)
 (require 'my-pawn)
