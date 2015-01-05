@@ -26,7 +26,7 @@
 ;(require 'my-elscreen)
 (require 'my-ibuffer)
 (require 'my-dired)
-(require 'my-magit)
+(require 'my-git)
 (require 'my-org)
 (require 'my-twittering)
 (require 'my-w3m)

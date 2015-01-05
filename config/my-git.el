@@ -18,4 +18,4 @@
             "k" 'magit-goto-previous-section
             "s" 'magit-stage-item))))
 
-(provide 'my-magit)
+(provide 'my-git)
