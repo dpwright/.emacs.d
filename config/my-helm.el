@@ -38,4 +38,7 @@
       (helm-projectile-on))
       (setq projectile-completion-system 'helm))
 
+(use-package helm-flycheck
+  :ensure helm-flycheck)
+
 (provide 'my-helm)
