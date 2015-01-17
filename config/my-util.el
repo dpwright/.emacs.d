@@ -5,4 +5,8 @@
       `(eval-after-load ,feature
            '(progn ,@body)))
 
+(defun turn-on-linum ()
+; (linum-mode 0)
+  )
+
 (provide 'my-util)
