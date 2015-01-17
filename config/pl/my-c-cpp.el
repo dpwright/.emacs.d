@@ -12,7 +12,6 @@
                   indent-tabs-mode t)
     (set (make-local-variable 'compile-command) "rake ")
     (linum-mode 1)
-    (require 'smart-tabs)
-    (smart-tabs 1)))
+    ))
 
 (provide 'my-c-cpp)
