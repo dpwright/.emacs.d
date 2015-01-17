@@ -25,6 +25,7 @@
       (define-key haskell-mode-map (kbd "C-c C-d") nil)
 
       (add-hook 'haskell-mode-hook 'turn-on-linum)
+      (add-hook 'haskell-mode-hook (lambda () (setq tab-width 1)))
       (add-hook 'interactive-haskell-mode-hook (lambda () (linum-mode 0)))
 
       (custom-set-variables
