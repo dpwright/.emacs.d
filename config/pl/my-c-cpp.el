@@ -1,3 +1,5 @@
+(require 'my-util)
+
 (setq gdb-many-windows t)
 (semantic-mode 1)
 (add-hook 'speedbar-load-hook (lambda () (require 'semantic/sb)))
@@ -11,7 +13,6 @@
                   tab-width 3
                   indent-tabs-mode t)
     (set (make-local-variable 'compile-command) "rake ")
-    (linum-mode 1)
-    ))
+    (turn-on-linum)))
 
 (provide 'my-c-cpp)

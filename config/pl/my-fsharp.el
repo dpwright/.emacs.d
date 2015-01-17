@@ -1,3 +1,5 @@
+(require 'my-util)
+
 (use-package fsharp-mode
   :ensure fsharp-mode
   :init

@@ -1,7 +1,9 @@
+(require 'my-util)
+
 (use-package ninja-mode
   :ensure ninja-mode
   :config
     (progn
-      (add-hook 'ninja-mode-hook (lambda () (linum-mode 1)))))
+      (add-hook 'ninja-mode-hook 'turn-on-linum)))
 
 (provide 'my-ninja)

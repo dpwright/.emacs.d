@@ -3,6 +3,6 @@
   :init
     (progn
       (add-to-list 'auto-mode-alist '("\\.bat\\'" . bat-mode))
-      (add-hook 'bat-mode-hook (lambda () (linum-mode 1)))))
+      (add-hook 'haskell-mode-hook 'turn-on-linum)))
 
 (provide 'my-bat)

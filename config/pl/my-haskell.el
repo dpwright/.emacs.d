@@ -1,3 +1,5 @@
+(require 'my-util)
+
 (use-package haskell-mode
   :ensure haskell-mode
   :config
@@ -22,9 +24,9 @@
       (define-key haskell-mode-map (kbd "C-c M-.") nil)
       (define-key haskell-mode-map (kbd "C-c C-d") nil)
 
-      (add-hook 'haskell-mode-hook (lambda () (linum-mode 1)))
-
+      (add-hook 'haskell-mode-hook 'turn-on-linum)
       (add-hook 'interactive-haskell-mode-hook (lambda () (linum-mode 0)))
+
       (custom-set-variables
         '(haskell-process-type 'cabal-repl))))
 
