@@ -47,6 +47,7 @@
 (require 'my-yaml)
 (require 'my-lua)
 (require 'my-elisp)
+(require 'my-bat)
 
 ; This needs to be the last package imported, to override previously-defined keybindings
 (require 'my-evil)
