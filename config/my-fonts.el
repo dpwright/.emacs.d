@@ -11,7 +11,7 @@
 
 (defun mono ()
   (interactive)
-  (set-default-font "Input Mono 12"))
+  (set-default-font "CMU Typewriter Text 14"))
 
 (defun prop ()
   (interactive)
