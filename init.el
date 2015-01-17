@@ -35,6 +35,7 @@
 
 (require 'my-flycheck)
 
+(require 'my-markdown)
 (require 'my-haskell)
 (require 'my-c-cpp)
 (require 'my-pawn)
