@@ -18,4 +18,7 @@
             "k" 'magit-goto-previous-section
             "s" 'magit-stage-item))))
 
+(use-package git-timemachine
+  :ensure git-timemachine)
+
 (provide 'my-git)
