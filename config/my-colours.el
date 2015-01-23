@@ -5,13 +5,13 @@
       (load-theme 'minimal t)
 
       (let ((comment-font (find-available-font
-                           '("CMU Concrete"
-                             "CMU Serif"
+                           '("CMU Serif"
+                             "CMU Concrete"
                              "Georgia"))))
         (dolist (face '(font-lock-comment-face
                         font-lock-comment-delimiter-face))
           (set-face-foreground face "gray60")
-          (set-face-italic     face t)
+          (set-face-italic     face nil)
           (set-face-font       face (concat comment-font " 14"))))
 
       (set-face-background 'hl-line "MediumPurple4")))
