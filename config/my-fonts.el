@@ -11,11 +11,11 @@
 
 (defun mono ()
   (interactive)
-  (set-default-font "CMU Typewriter Text 14"))
+  (set-default-font "CMU Typewriter Text 16"))
 
 (defun prop ()
   (interactive)
-  (set-default-font "Georgia 14"))
+  (set-default-font "CMU Concrete 16"))
 
 (mono)
 
