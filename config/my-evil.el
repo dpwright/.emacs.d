@@ -16,7 +16,8 @@
   :ensure evil
   :init
     (progn
-      (evil-mode 1))
+      (evil-mode 1)
+      (setq evil-want-C-w-in-emacs-state t))
   :config
     (progn
       (setq evil-want-C-u-scroll t)
