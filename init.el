@@ -40,6 +40,7 @@
 (require 'my-c-cpp)
 (require 'my-pawn)
 (require 'my-fsharp)
+(require 'my-csharp)
 (require 'my-protobuf)
 (require 'my-ruby)
 (require 'my-ninja)
