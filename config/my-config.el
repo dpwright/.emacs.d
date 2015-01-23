@@ -56,9 +56,9 @@
 
 ; Show whitespace
 (require 'whitespace)
-(global-whitespace-mode 1)
 (setq whitespace-style
   '(tab-mark space-before-tab newline))
+(global-whitespace-mode 1)
 
 ; Hide ^M from mixed-line-ending files
 (defun remove-dos-eol ()
