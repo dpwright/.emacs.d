@@ -15,4 +15,13 @@
     (set (make-local-variable 'compile-command) "rake ")
     (turn-on-linum)))
 
+(use-package ggtags
+  :ensure ggtags
+  :config
+    (progn
+      (add-hook 'c-mode-common-hook
+        (lambda ()
+          (when (derived-mode-p 'c-mode 'c++-mode 'java-mode)
+                (ggtags-mode 1))))))
+
 (provide 'my-c-cpp)
