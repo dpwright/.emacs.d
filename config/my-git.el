@@ -29,7 +29,10 @@
           "C-w j" 'evil-window-down
           "C-w k" 'evil-window-up
           "C-w l" 'evil-window-right)
-        )))
+        )
+      (global-set-key (kbd "C-c g") 'magit-status)
+      (global-set-key (kbd "C-c C-g") 'magit-status)
+      ))
 
 (use-package git-timemachine
   :ensure git-timemachine)
