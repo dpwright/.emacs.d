@@ -41,4 +41,7 @@
 (use-package helm-flycheck
   :ensure helm-flycheck)
 
+(use-package helm-gtags
+  :ensure helm-gtags)
+
 (provide 'my-helm)
