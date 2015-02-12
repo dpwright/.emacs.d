@@ -6,8 +6,7 @@
 
       (dolist (face '(font-lock-comment-face
                       font-lock-comment-delimiter-face))
-        (set-face-italic     face nil)
-        (set-face-font       face (font proportional-font 14)))
+        (set-face-attribute face nil :inherit 'variable-pitch))
 
       (set-background-color "WhiteSmoke")))
 
