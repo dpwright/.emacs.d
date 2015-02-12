@@ -27,7 +27,12 @@
 
       (setq evil-want-C-w-in-emacs-state t)
       (evil-define-key 'normal emacs-lisp-mode-map (kbd "K")
-        'elisp-slime-nav-describe-elisp-thing-at-point)))
+        'elisp-slime-nav-describe-elisp-thing-at-point)
+
+      (define-key evil-normal-state-map (kbd "\\") 'evil-execute-in-emacs-state)
+      (define-key evil-normal-state-map (kbd "C-]") (kbd "\\ M-."))
+
+      ))
 
 (use-package evil-jumper
   :ensure evil-jumper
